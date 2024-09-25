@@ -167,4 +167,10 @@ h3 {
   left: 0px;
 }
 
-/* Start coding here */
+@media only screen and (max-width: 333px) {
+  .row-1,
+  .row-2 {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
